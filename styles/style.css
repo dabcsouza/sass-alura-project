@@ -16,5 +16,185 @@ nav ul li a {
   color: #0D4C92;
 }
 nav ul li a:hover {
-  border-bottom: 3px solid #E0FCFF;
+  border-bottom: 3px solid #7098DA;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.inner-banner {
+  padding: 3rem;
+  background-color: #E0FCFF;
+  opacity: 0.8;
+  border-radius: 45px;
+}
+.inner-banner h1 {
+  font-size: 3rem;
+  color: #0D4C92;
+}
+.inner-banner h2 {
+  font-size: 1.5rem;
+  color: #7098DA;
+}
+
+#services {
+  margin: 80px;
+}
+#services h4 {
+  font-size: 1.2rem;
+  color: #7098DA;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+#services h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards .card {
+  width: 360px;
+  text-align: center;
+}
+.cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #0D4C92;
+}
+.cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #0D4C92;
+  line-height: 1.5rem;
+}
+.cards .card .img-container {
+  padding: 2px;
+  border-bottom: 6px solid #E0FCFF;
+}
+.cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #E0FCFF;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .text {
+  color: #0D4C92;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#cupom .text h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 15px;
+  border: 4px solid white;
+  background-color: white;
+}
+#cupom .input input {
+  border-radius: 15px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 5px 1px #0D4C92;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #06283D;
+  color: #DFF6FF;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px solid #06283D;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#cupom button:hover {
+  color: #06283D;
+  background-color: #DFF6FF;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #0D4C92;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #0D4C92, #E0FCFF, #7098DA, #0D4C92);
+  background-opacity: 0.6;
+}
+footer i {
+  color: red;
+}
+
+#curiosities {
+  margin: 30px 30px;
+}
+#curiosities div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#curiosities div:first-child img {
+  width: 20%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.curiosities-text {
+  margin: 80px;
+}
+.curiosities-text h4 {
+  font-size: 1.2rem;
+  color: #7098DA;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 1rem;
+}
+.curiosities-text h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #06283D;
+  opacity: 0.8;
+}
+.curiosities-text p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #7098DA;
+  line-height: 1.5rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
